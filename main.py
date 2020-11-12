@@ -2,7 +2,7 @@ import tkinter as tk
 import numpy as np
 import matplotlib		# before 'from matplotlib import pyplot as plt' !!!
 matplotlib.use("TkAgg")	# see above line !!
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg,NavigationToolbar2TkAgg
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg,NavigationToolbar2Tk
 from matplotlib import pyplot as plt
 from conv_eval import evaluate
 import random
